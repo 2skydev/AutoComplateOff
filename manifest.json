@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "자동완성 끄기 - Auto Complate Off",
+  "description": "브라우저의 기본 자동완성 기능을 비활성화 합니다.",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "webNavigation",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "128": "logo-128.png"
+  }
+}
